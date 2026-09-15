@@ -1,0 +1,40 @@
+## Build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.ncrunch*
+*.DotSettings.user
+_ReSharper*/
+*.rsuser
+
+## NuGet
+packages/
+!packages/repositories.config
+
+## OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+## Secrets (yerel ayarlar)
+App.config.local
+secrets.config
+*.pfx

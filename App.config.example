@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+    <add name="OpenBilet"
+         connectionString="Server=localhost;Database=openbilet;Uid=root;Pwd=;CharSet=utf8;"
+         providerName="MySql.Data.MySqlClient" />
+  </connectionStrings>
+  <appSettings>
+    <add key="SmtpHost" value="smtp.gmail.com" />
+    <add key="SmtpPort" value="587" />
+    <add key="SmtpEmail" value="" />
+    <add key="SmtpPassword" value="" />
+    <add key="SmtpSenderName" value="OpenTicket" />
+    <add key="IyzicoApiKey" value="" />
+    <add key="IyzicoSecretKey" value="" />
+    <add key="IyzicoBaseUrl" value="https://sandbox-api.iyzipay.com" />
+  </appSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Memory" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.1.2" newVersion="4.0.1.2" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
